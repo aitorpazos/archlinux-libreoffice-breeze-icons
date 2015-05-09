@@ -1,7 +1,7 @@
 # Maintainer: Aitor Pazos <mail at aitorpazos dot es> 
 pkgbase=libreoffice-breeze-icons
 pkgname=('libreoffice-breeze-icons')
-pkgver=2015.5.1
+pkgver=2015.5.2
 pkgrel=1
 pkgdesc="Breeze icons set for Libreoffice"
 arch=('any')
@@ -15,7 +15,7 @@ provides=()
 source=("https://github.com/aitorpazos/archlinux-libreoffice-breeze-icons/releases/download/2015.5.1/libreoffice-breeze-icons-2015.5.1.tar.gz"
 		)
 
-md5sums=('SKIP')
+md5sums=('2f6d29b9a43730d11769cac155b81183')
 
 package() {
     LO_DIR=/usr/lib/libreoffice/share/config
