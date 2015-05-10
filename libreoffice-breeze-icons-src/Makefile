@@ -37,8 +37,8 @@ plasma-next-icons:
 	done
 	
 images_breeze.zip images_breeze_dark.zip: %.png
-	cd breeze && zip -r ../images_breeze.zip *
-	cd breeze_dark && zip -r ../images_breeze_dark.zip *
+	cd breeze && zip -y -r ../images_breeze.zip *
+	cd breeze_dark && zip -y -r ../images_breeze_dark.zip *
 
 clean:
 	rm -rf breeze

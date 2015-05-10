@@ -15,7 +15,7 @@ provides=()
 source=("https://github.com/aitorpazos/archlinux-libreoffice-breeze-icons/releases/download/${pkgver}/libreoffice-breeze-icons-${pkgver}.tar.gz"
 		)
 
-md5sums=('2f6d29b9a43730d11769cac155b81183')
+md5sums=('63d2dc7c9041d09c2249d724a15e88d5')
 
 package() {
     LO_DIR=/usr/lib/libreoffice/share/config
@@ -23,4 +23,5 @@ package() {
     mkdir -p $pkgdir$LO_DIR
     cp $srcdir/images_breeze.zip $pkgdir$LO_DIR/
     cp $srcdir/images_breeze_dark.zip $pkgdir$LO_DIR/
+    chmod o+r $pkgdir$LO_DIR/*.zip
 }

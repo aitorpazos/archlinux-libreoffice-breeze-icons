@@ -1,7 +1,11 @@
 **/.*~
-libreoffice-breeze-icons-src/breeze/*
-libreoffice-breeze-icons-src/breeze_dark/*
-libreoffice-breeze-icons-src/plasma-next-icons/*
+libreoffice-breeze-icons/*.gz
+libreoffice-breeze-icons/*.xz
+libreoffice-breeze-icons/src/**
+libreoffice-breeze-icons/pkg/**
+libreoffice-breeze-icons-src/breeze/**
+libreoffice-breeze-icons-src/breeze_dark/**
+libreoffice-breeze-icons-src/plasma-next-icons/**
 libreoffice-breeze-icons-src/images_breeze.zip
 libreoffice-breeze-icons-src/images_breeze_dark.zip
-libreoffice-breeze-icons-src/libreoffice-breeze-icons-2015.5.1.tar.gz
+libreoffice-breeze-icons-src/libreoffice-breeze-icons*.tar.gz
