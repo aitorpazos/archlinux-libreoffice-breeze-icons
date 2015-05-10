@@ -1,6 +1,6 @@
 # It builds icon packages ready to be copied to /usr/lib/libreoffice/share/config
 #
-VERSION=2015.5.2
+VERSION=2015.5.3
 
 all: images_breeze.zip images_breeze_dark.zip
 	tar -cvzf libreoffice-breeze-icons-$(VERSION).tar.gz *.zip
@@ -43,6 +43,8 @@ images_breeze.zip images_breeze_dark.zip: %.png
 clean:
 	rm -rf breeze
 	rm -rf breeze_dark
+	rm -rf plasma-next-icons
 	rm -f images_breeze.zip 
 	rm -f images_breeze_dark.zip 
 	rm -f libreoffice-breeze-icons-$(VERSION).tar.gz 
+
